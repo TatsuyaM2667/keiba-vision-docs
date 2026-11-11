@@ -1,0 +1,7 @@
+// ドキュメントサイト (静的ファイルのみ)。`npm run deploy` で Cloudflare Pages に公開する
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "keiba-vision-docs",
+  "pages_build_output_dir": "./dist",
+  "compatibility_date": "2026-11-11"
+}

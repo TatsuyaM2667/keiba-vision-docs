@@ -1,0 +1,16 @@
+{
+  "name": "keiba-vision-docs",
+  "private": true,
+  "type": "module",
+  "description": "Keiba Vision のドキュメントサイト (Cloudflare Pages)",
+  "scripts": {
+    "build": "node build.mjs",
+    "deploy": "node build.mjs && wrangler pages deploy"
+  },
+  "devDependencies": {
+    "katex": "0.19.1",
+    "marked": "18.2.0",
+    "shiki": "4.6.0",
+    "wrangler": "4.159.0"
+  }
+}
